@@ -176,7 +176,7 @@ for idF, folder in enumerate(folderNames):
                      reflex_freqResp_PI,
                      NumResp_PerI,
                      freqResp_Rd,
-                     velocities,
+#                     velocities,
                      avgVelo_PerI,
                      firstVelo_PerI,
                      reflex_firstVelo_PerI]
@@ -191,7 +191,7 @@ for idF, folder in enumerate(folderNames):
                      'ReflexRespFreqPerInt',
                      'BoutsPerInt',
                      'RdRespFreq',
-                     'VelocityPerBout',
+#                     'VelocityPerBout',
                      'AvgVelocityPerInt',
                      'FirstVelocityPerInt',
                      'ReflexFirstVelocityPerInt']

@@ -11,7 +11,7 @@ folderListFile=[]
 Dose=''
 #####################################################
 # Set "Library Path" - Nociceptive Zebrafish Repo
-lib_path='C:/Users/thoma/OneDrive/Documents/GitHub/Nociceptive_Zebrafish/libs'
+lib_path='C:/Users/thoma/OneDrive/Documents/GitHub/Nociception/TMR/libs/'
 import sys
 sys.path.append(lib_path)
 
@@ -89,6 +89,7 @@ for idF, folder in enumerate(folderNames):
                 if ff.find(find_it):
                     ff = ff.replace(find_it, repl_it)
                 postDrugDictFiles.append(glob.glob(ff)[0])
+            
             
             preDrugkeys,preDrugaverages,preDrugSDs=NZR.AverageRoundsDict(preDrugDictFiles)
             postDrugkeys,postDrugaverages,postDrugSDs=NZR.AverageRoundsDict(postDrugDictFiles)
